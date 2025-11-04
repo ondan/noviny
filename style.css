@@ -1,0 +1,92 @@
+
+body {
+    background-color: #b4a77eaf;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+}
+
+.nadpis {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: #333;
+}
+
+.subtitle{
+    margin: 4px 0 0;
+    font-size: 14px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: #b4a77eaf;
+    gap: 10px;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar a { 
+    color: #222;
+}
+.sidebar li { 
+    padding: 6px 4px;
+    list-style: circle;
+}
+
+.footer {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.IMG {
+    text-align: center;
+}
+.IMG img { 
+    max-width: 100%;
+    border-radius: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #f5f1e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.clanek-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.vyhody{
+    border-radius: 15px;
+    margin: 10px;
+}
+
+

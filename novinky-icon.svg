@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <path id="b" d="M30.49 38.885a10.948 10.948 0 0 0 8.394-8.393A49.607 49.607 0 0 0 40 20c0-3.6-.385-7.11-1.116-10.491a10.948 10.948 0 0 0-8.392-8.393A49.611 49.611 0 0 0 20 0C16.4 0 12.89.385 9.51 1.116A10.949 10.949 0 0 0 1.116 9.51 49.6 49.6 0 0 0 0 19.999c0 3.6.385 7.11 1.116 10.492a10.949 10.949 0 0 0 8.393 8.393A49.584 49.584 0 0 0 20 40c3.6 0 7.11-.385 10.49-1.115"/>
+    <filter id="a" width="300%" height="300%" x="-100%" y="-80%" filterUnits="objectBoundingBox">
+      <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#D82547"/>
+      <stop offset="100%" stop-color="#A20132"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFF" xlink:href="#b"/>
+    <path fill="url(#c)" d="M0 0h40v40H0z"/>
+    <path fill="#FFF" d="M14.72 14.88V29h-3.469V14.88h3.47zm9.274-.88c1.043 0 1.944.115 2.698.343.754.23 1.379.607 1.871 1.131.494.526.857 1.226 1.09 2.104.231.878.347 1.975.347 3.292V29h-3.597v-7.757c0-.802-.045-1.465-.132-1.99-.086-.525-.251-.94-.493-1.245a1.842 1.842 0 0 0-.971-.63c-.408-.115-.93-.172-1.568-.172-.89 0-1.77.115-2.64.343V29H17V15.26c.445-.172.953-.334 1.524-.487a23.504 23.504 0 0 1 3.641-.673 17.56 17.56 0 0 1 1.829-.1zm-10.98-5c.373 0 .685.018.937.055.252.037.456.116.615.236.159.12.27.291.336.514.065.221.098.517.098.887 0 .814-.144 1.336-.434 1.567-.29.232-.807.347-1.552.347-.765 0-1.292-.115-1.58-.347-.29-.23-.434-.753-.434-1.567 0-.37.031-.666.097-.887a.957.957 0 0 1 .336-.514c.158-.12.363-.199.616-.236.251-.037.572-.055.965-.055z"/>
+  </g>
+</svg>

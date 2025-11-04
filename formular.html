@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontaktní formulář</title>
+  <style>
+    body {
+      background-color: #e3d9b6;
+      
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 15px;
+      border: 1px solid gray;
+    }
+   
+    input, textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 8px;
+      width: 100%;
+    }
+    .sidebar {
+  background: #ddd;
+  width: 200px;
+  align-items: flex-end;
+  display: flex;
+  align-content: center;
+  border-radius: 40px;
+  display: flex;
+  
+
+}
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+        <ul>
+            
+            <li><a href="../html/clanek.html">clanek</a></li>
+            <li><a href="../html/about.html">O nas</a></li>
+            <li><a href="../html/home.html">Zpet na uvod</a></li>
+        </ul>
+    </div>
+  <h1>Kontaktní formulář</h1>
+  <form>
+    <label for="jmeno">Jméno:</label>
+    <input type="text" id="jmeno" name="jmeno" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="zprava">Zpráva:</label>
+    <textarea id="zprava" name="zprava" rows="5" required></textarea>
+
+    <button type="submit">Odeslat</button>
+  </form>
+  
+</body>
+</html>
